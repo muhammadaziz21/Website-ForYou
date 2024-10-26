@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Page for You</title>
+    <style>
+        /* Background and font styling */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+            color: #ffffff;
+            font-family: 'Cursive', Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Container styling */
+        .container {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            backdrop-filter: blur(5px);
+        }
+
+        /* Main title */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #ffd1dc;
+            animation: fadeIn 3s ease-in;
+        }
+
+        /* Paragraph */
+        p {
+            font-size: 1.3em;
+            line-height: 1.5;
+            color: #fff5f8;
+            animation: fadeIn 5s ease-in;
+        }
+
+        /* Heart animation */
+        .heart {
+            font-size: 3em;
+            color: #ff6b81;
+            animation: heartbeat 1s infinite;
+            margin-top: 20px;
+        }
+
+        /* Keyframes for animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        /* Button styling */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #ff6b81;
+            color: #fff;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ff4d6d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To My Love</h1>
+        <p>
+            Sayangku, cintaku, cantiknya aku maaf yaa bikin riweuh hari ini. Love you so much sayang❤️.
+        </p>
+        <div class="heart">❤️</div>
+        <a href="https://www.youtube.com/watch?v=6wBzR7zhA0g" target="_blank" class="button">A Little Surprise</a>
+    </div>
+</body>
+</html>
